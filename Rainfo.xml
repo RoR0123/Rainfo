@@ -4,6 +4,5 @@
       <block type="movement_leftmotor" id="89" inline="true"></block>
     </next>
   </block>
-  <block type="movement_left" id="99" x="-93" y="374"></block>
   <block type="movement_reverse" id="69" x="712" y="608"></block>
 </xml>
