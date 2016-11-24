@@ -1,8 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_forward" id="79" x="-54" y="37">
-    <next>
-      <block type="movement_leftmotor" id="89" inline="true"></block>
-    </next>
-  </block>
+  <block type="movement_forward" id="109" x="-3" y="63"></block>
+  <block type="movement_leftmotor" id="89" inline="true" x="-185" y="467"></block>
   <block type="movement_reverse" id="69" x="712" y="608"></block>
 </xml>
