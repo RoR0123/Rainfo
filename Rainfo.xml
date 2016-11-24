@@ -1,11 +1,25 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_left" id="62" x="-164" y="4">
-    <next>
-      <block type="movement_stop" id="52">
+  <block type="controls_repeat" id="152" inline="true" x="-298" y="19">
+    <value name="TIMES">
+      <block type="math_number" id="159">
+        <field name="NUM">12</field>
+      </block>
+    </value>
+    <statement name="DO">
+      <block type="movement_forward" id="112">
         <next>
-          <block type="movement_forward" id="42"></block>
+          <block type="robot_delay" id="123" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="139">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+          </block>
         </next>
       </block>
+    </statement>
+    <next>
+      <block type="movement_stop" id="169"></block>
     </next>
   </block>
 </xml>
